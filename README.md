@@ -1,3 +1,4 @@
+![](https://i.imgur.com/PB4JHGK.png)
 # Open Source - Timerbars
 
 Created by LeonMrBonnie
@@ -86,57 +87,57 @@ Available `options` properties:
 | `progress`    | `Number`   | The progress amount in %                               | `progress`         |
 
 ### `remove`:
-| Parameter    | Type       | Description                                            | Default value   |
-| ------------ | ---------- | ------------------------------------------------------ | --------------- |
-| `id`         | `String`   | Unique id of the timerbar                              |                 |
+| Parameter    | Type       | Description                                            |
+| ------------ | ---------- | ------------------------------------------------------ |
+| `id`         | `String`   | Unique id of the timerbar                              |
 
 ### `removeAll`:
 Has no parameters
 
 ### `setTitle`:
-| Parameter    | Type       | Description                                            | Default value   |
-| ------------ | ---------- | ------------------------------------------------------ | --------------- |
-| `id`         | `String`   | Unique id of the timerbar                              |                 |
-| `title`      | `String`   | The timer bar title                                    |                 |
+| Parameter    | Type       | Description                                            |
+| ------------ | ---------- | ------------------------------------------------------ |
+| `id`         | `String`   | Unique id of the timerbar                              |
+| `title`      | `String`   | The timer bar title                                    |
 
 ### `setText`:
-| Parameter    | Type       | Description                                            | Default value   |
-| ------------ | ---------- | ------------------------------------------------------ | --------------- |
-| `id`         | `String`   | Unique id of the timerbar                              |                 |
-| `text`       | `String`    | The timer bar text                                    |                 |
+| Parameter    | Type       | Description                                            |
+| ------------ | ---------- | ------------------------------------------------------ |
+| `id`         | `String`   | Unique id of the timerbar                              |
+| `text`       | `String`    | The timer bar text                                    |
 
 ### `setColor`:
-| Parameter    | Type       | Description                                            | Default value   |
-| ------------ | ---------- | ------------------------------------------------------ | --------------- |
-| `id`         | `String`   | Unique id of the timerbar                              |                 |
-| `color`      | `Number`   | The color of the timerbar (uses GTA V hud color ids)   |                 |
+| Parameter    | Type       | Description                                            |
+| ------------ | ---------- | ------------------------------------------------------ |
+| `id`         | `String`   | Unique id of the timerbar                              |
+| `color`      | `Number`   | The color of the timerbar (uses GTA V hud color ids)   |
 
 ### `setTextColor`:
-| Parameter    | Type       | Description                                                 | Default value   |
-| ------------ | ---------- | ----------------------------------------------------------- | --------------- |
-| `id`         | `String`   | Unique id of the timerbar                                   |                 |
-| `textColor`  | `Number`   | The text color of the timerbar (uses GTA V hud color ids)   |                 |
+| Parameter    | Type       | Description                                                 |
+| ------------ | ---------- | ----------------------------------------------------------- |
+| `id`         | `String`   | Unique id of the timerbar                                   |
+| `textColor`  | `Number`   | The text color of the timerbar (uses GTA V hud color ids)   |
 
 ### `setHighlightColor`:
-| Parameter        | Type       | Description                                                      | Default value   |
-| ---------------- | ---------- | ---------------------------------------------------------------- | --------------- |
-| `id`             | `String`   | Unique id of the timerbar                                        |                 |
-| `highlightColor` | `Number`   | The highlight color of the timerbar (uses GTA V hud color ids)   |                 |
+| Parameter        | Type       | Description                                                      |
+| ---------------- | ---------- | ---------------------------------------------------------------- |
+| `id`             | `String`   | Unique id of the timerbar                                        |
+| `highlightColor` | `Number`   | The highlight color of the timerbar (uses GTA V hud color ids)   |
 
 ### `setCheckpointState`:
 Only works for type `checkpoint`
-| Parameter       | Type       | Description                                                          | Default value   |
-| --------------- | ---------- | -------------------------------------------------------------------- | --------------- |
-| `id`            | `String`   | Unique id of the timerbar                                            |                 |
-| `checkpointIdx` | `Number`   | The checkpoint index (starts at 0) (`-1` means all checkpoints)      |                 |
-| `state`         | `Number`   | State of the checkpoint (`0 = In Progress, 1 = Success, 2 = Failed`) |                 |
+| Parameter       | Type       | Description                                                          |
+| --------------- | ---------- | -------------------------------------------------------------------- |
+| `id`            | `String`   | Unique id of the timerbar                                            |
+| `checkpointIdx` | `Number`   | The checkpoint index (starts at 0) (`-1` means all checkpoints)      |
+| `state`         | `Number`   | State of the checkpoint (`0 = In Progress, 1 = Success, 2 = Failed`) |
 
 ### `setProgress`:
 Only works for type `progress`
-| Parameter    | Type       | Description                  | Default value   |
-| ------------ | ---------- | ---------------------------- | --------------- |
-| `id`         | `String`   | Unique id of the timerbar    |                 |
-| `progress`   | `Number`   | The progress amount in %     |                 |
+| Parameter    | Type       | Description                  |
+| ------------ | ---------- | ---------------------------- |
+| `id`         | `String`   | Unique id of the timerbar    |
+| `progress`   | `Number`   | The progress amount in %     |
 
 # Example
 
